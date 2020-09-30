@@ -1,0 +1,86 @@
+.d-flex {
+  display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.align-content-center {
+  align-content: center;
+}
+
+.align-items {
+  align-items: center;
+}
+
+.flex-direction-column {
+  flex-direction: column;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.main {
+  width: 200px;
+  height: 500px;
+  margin: auto;
+}
+
+.top {
+  width: 50px;
+  height: 100px;
+  margin: auto;
+}
+
+.dark-grey {
+  background-color:rgb(31, 31, 31);
+}
+
+.light-grey {
+  background-color: rgb(36, 36, 36);
+}
+
+.circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.red {
+  background-color: red;
+  margin: auto;
+}
+
+.yellow {
+  background-color: yellow;
+  margin: auto;
+}
+
+.green {
+  background-color:green;
+  margin: auto;
+}
+
+.red:hover {
+  background-image: url("./grid.png");
+  box-shadow: 0px 0px 15px 20px rgb(255, 88, 88);
+  background-size: 100%;
+  }
+
+  .yellow:hover {
+    background-image: url("./grid.png");
+    background-size: 100%;
+    box-shadow: 0px 0px 15px 20px rgb(255, 255, 211);
+    }
+
+.green:hover {
+background-image: url("./grid.png");
+background-size: 100%;
+box-shadow: 0px 0px 15px 20px lightgreen;
+}
+
+body {
+  background-color: grey;
+}
